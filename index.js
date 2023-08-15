@@ -4,19 +4,15 @@ const { Triangle, Circle, Square } = require('./lib/shapes'); // Import the shap
 const open = require('open');// Import the open module
 const path = require('path');
 
-const namedColors = [
-    'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 
-    'lime', 'maroon', 'navy', 'olive', 'purple', 'red', 
-    'silver', 'teal', 'white', 'yellow'
-];
+const cssColorNames = require('css-color-names');
 
 function isValidColor(input) {
     // Check if it's a valid hex code
     if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(input)) return true;
     
     // Check if it's a valid named color
-    if (namedColors.includes(input.toLowerCase())) return true;
-    
+    if (cssColorNames[input.toLowerCase()]) return true;
+
     return false;  // Invalid color
 }
 
