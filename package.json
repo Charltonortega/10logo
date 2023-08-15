@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "jest"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.6.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
