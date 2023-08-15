@@ -1,6 +1,13 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-const { Triangle, Circle, Square } = require('./lib/shapes');
+const inquirer = require('inquirer'); // Import the inquirer
+const fs = require('fs'); // Import the file system
+const { Triangle, Circle, Square } = require('./lib/shapes'); // Import the shapes
+
+function isValidColor(input) {
+    // Check if it's a valid hex code
+    if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(input)) return true;
+
+    return true;
+}
 
 // Define the questions for Inquirer
 const questions = [
@@ -13,7 +20,8 @@ const questions = [
     {
         type: 'input',
         name: 'textColor',
-        message: 'Enter the text color (color name or hex code):'
+        message: 'Enter the text color (color name or hex code):',
+        validate: input => isValidColor(input) || 'Please enter a valid color name or hex code!'
     },
     {
         type: 'list',
@@ -24,7 +32,8 @@ const questions = [
     {
         type: 'input',
         name: 'shapeColor',
-        message: 'Enter the shape color (color name or hex code):'
+        message: 'Enter the shape color (color name or hex code):',
+        validate: input => isValidColor(input) || 'Please enter a valid color name or hex code!'
     }
 ];
 
@@ -55,6 +64,6 @@ inquirer.prompt(questions).then(answers => {
     // Write the SVG content to a file
     fs.writeFileSync('logo.svg', svgContent);
 
-    console.log('Generated logo.svg');
+    console.log('logo.svg has been generated successfully!'); 
 });
 

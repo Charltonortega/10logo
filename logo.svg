@@ -1,8 +1,8 @@
 
     <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="150,18 244,182 56,182" fill="black" />
-        <text x="150" y="100" font-family="Arial" font-size="24" fill="orange" text-anchor="middle" dy=".3em">
-            dad
+        <circle cx="150" cy="100" r="90" fill="#131231232lksajdas" />
+        <text x="150" y="100" font-family="Arial" font-size="24" fill="#131231" text-anchor="middle" dy=".3em">
+            KOL
         </text>
     </svg>
     
