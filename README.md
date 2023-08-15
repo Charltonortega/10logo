@@ -26,7 +26,7 @@ Clone the repository:
 
 ```bash
 git clone git@github.com:Charltonortega/10logo.git
-cd <PROJECT_DIRECTORY>
+cd 10logo
 ```
 Install the required packages:
 ```bash
@@ -46,6 +46,17 @@ Test are writtin using Jest. To run the test execute the following command:
 ```bash
 npm test
 ```
+## Resources
+
+Here are some useful resources related to the tools and technologies used in this project:
+
+- **Node.js**: [Official Documentation](https://nodejs.org/en/docs/)
+- **Inquirer**: [NPM Package and Documentation](https://www.npmjs.com/package/inquirer)
+- **Jest**: [Official Documentation](https://jestjs.io/docs/getting-started)
+- **SVG**: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG)
+
+For a deeper understanding or further exploration, consider checking out these resources.
+
 ## Contributing
 Pull request are welcome, For major changes please open issue first to dicuss what you would like to change.
 
