@@ -1,0 +1,8 @@
+
+    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="150" cy="100" r="90" fill="white" />
+        <text x="150" y="100" font-family="Arial" font-size="24" fill="black" text-anchor="middle" dy=".3em">
+        ddd
+    </text>
+    </svg>
+    
