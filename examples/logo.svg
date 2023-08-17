@@ -1,8 +1,0 @@
-
-    <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="150" cy="100" r="90" fill="purple" />
-        <text x="250" y="250" font-family="Arial" font-size="24" fill="orange" text-anchor="middle" dy=".3em">
-        okk
-    </text>
-    </svg>
-    
