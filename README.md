@@ -6,13 +6,17 @@ A simple command-line interface to generate SVG logos. Ideal for developers who 
 
 - Prompt for up to three characters of text for the logo.
 - Choose a text color (by name or hex code).
+- Ability to choose font family.
 - Select a shape for the logo background: circle, triangle, or square.
 - Define a color for the chosen shape.
-- Output is saved as an SVG file named `logo.svg`.
+- Output is named and saved as an SVG file.
 
 ## 📸 Screenshot
-
-ADD HERE
+<p align="center">
+  <a href="">
+    <img src="./assets/screenshots/Screenshot 2023-08-20 231939.png" alt="Demo GIF" style="border: 3px solid grey;"/>
+  </a>
+</p>
 
 ## 🚀 Deployment
 
@@ -54,6 +58,8 @@ Here are some useful resources related to the tools and technologies used in thi
 - **Inquirer**: [NPM Package and Documentation](https://www.npmjs.com/package/inquirer)
 - **Jest**: [Official Documentation](https://jestjs.io/docs/getting-started)
 - **SVG**: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- **Open**: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
+- **CSS Color Names**: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 
 For a deeper understanding or further exploration, consider checking out these resources.
 
