@@ -1,6 +1,6 @@
 const inquirer = require('inquirer'); // Import the inquirer, 8.2.4 for current work.
 const fs = require('fs'); // Import the file system
-const { Triangle, Circle, Square, Ellipse, Pentagon, Hexagon } = require('./lib/shapes'); // Import the shapes for the logo
+const { Triangle, Circle, Square, Ellipse, Pentagon, Hexagon } = require('./lib/shapes'); // Import the shapes for the logo + additional shapes
 const open = require('open');// Import the open module
 const path = require('path');// Import the path for file save
 const cssColorNames = require('css-color-names'); // Import the css color names for color validation
@@ -71,7 +71,7 @@ inquirer.prompt(questions).then(answers => {
         case 'Square':
             shape = new Square(answers.shapeColor);
             break;
-        case 'Ellipse':
+        case 'Ellipse': // add additional shapes
             shape = new Ellipse(answers.shapeColor);
             break;
         case 'Pentagon':
