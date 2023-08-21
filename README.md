@@ -20,7 +20,7 @@ A simple command-line interface to generate SVG logos. Ideal for developers who 
 
 ## 🚀 Deployment
 
-The URL to video demonstration: 
+The URL to video demonstration: https://drive.google.com/file/d/1J-tiqP99GC6I2m8cNdyaolEFRjp75dNN/view?usp=sharing
 
 The URL of the GitHub repository: https://github.com/Charltonortega/10logo
 
